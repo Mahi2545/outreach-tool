@@ -1,0 +1,59 @@
+16:25:00 | INFO    | =================================================================
+16:25:00 | INFO    |   KREATORVERSE LEAD SCORING ENGINE
+16:25:00 | INFO    | =================================================================
+16:25:00 | INFO    |   Input file: NY lead sheet .xlsx
+16:25:00 | INFO    |   Test mode:  True
+16:25:00 | INFO    | =================================================================
+16:25:00 | INFO    |   Loaded 5 companies from input/leads.csv
+16:25:00 | INFO    |   [1] SPBD Microfinance Network      | Rev:      0 | Emp: 56
+16:25:00 | INFO    |   [2] First Northern Bank and Trust Co. | Rev:      0 | Emp: 92
+16:25:00 | INFO    |   [3] NBT Insurance Agency, LLC      | Rev:      0 | Emp: 83
+16:25:00 | INFO    |   [4] Highstreet Insurance & Financial Services, Upstate NY | Rev:      0 | Emp: 64
+16:25:00 | INFO    |   [5] Berkley Custom Insurance Managers (a Berkley Company) | Rev:      0 | Emp: 65
+16:25:00 | WARNING |   No cache found. Running enrichment...
+16:25:00 | INFO    |   Enriching: SPBD Microfinance Network
+16:25:15 | INFO    |     Leadership: 0 senior hires found
+16:25:19 | INFO    |     Funding: 0 events found
+16:25:21 | INFO    |     Strategic: None found
+16:25:21 | INFO    |   Enriching: First Northern Bank and Trust Co.
+16:25:35 | INFO    |     Leadership: 0 senior hires found
+16:25:38 | INFO    |     Funding: 0 events found
+16:25:40 | INFO    |     Strategic: None found
+16:25:40 | INFO    |   Enriching: NBT Insurance Agency, LLC
+16:25:54 | INFO    |     Leadership: 0 senior hires found
+16:25:57 | INFO    |     Funding: 0 events found
+16:25:59 | INFO    |     Strategic: None found
+16:25:59 | INFO    |   Enriching: Highstreet Insurance & Financial Services, Upstate NY
+16:26:13 | INFO    |     Leadership: 0 senior hires found
+16:26:16 | INFO    |     Funding: 0 events found
+16:26:18 | INFO    |     Strategic: None found
+16:26:18 | INFO    |   Enriching: Berkley Custom Insurance Managers (a Berkley Company)
+16:26:31 | INFO    |     Leadership: 0 senior hires found
+16:26:35 | INFO    |     Funding: 0 events found
+16:26:37 | INFO    |     Strategic: None found
+16:26:37 | INFO    |   API usage: coresignal=30/1000 | google_search=20/95 | newsapi=5/95
+16:26:37 | INFO    |   Cached: cache\enriched_20260420_162500.csv
+16:26:37 | INFO    |   Saved: output\scored_leads_20260420_162500.csv
+16:26:37 | INFO    | 
+  FULL SCORED LIST:
+16:26:37 | INFO    |     #  Score  Tier    Urgent   Company                         Breakdown
+16:26:37 | INFO    |   Saved: output\top40_shortlist_20260420_162500.csv
+16:26:37 | INFO    |   Shortlist: 0 HOT | 0 WARM | 5 COLD | 0 URGENT
+16:26:37 | INFO    |   Saved: output\pitches_20260420_162500.csv
+16:26:37 | INFO    |   Generated 0 pitches
+16:26:37 | INFO    |   Schedule: 0 touchpoints created
+16:26:37 | INFO    |   Saved: output\outreach_schedule_20260420_162500.csv
+16:26:37 | INFO    | 
+=================================================================
+16:26:37 | INFO    | =================================================================
+16:26:37 | INFO    |   Companies processed:    5
+16:26:37 | INFO    |   Companies enriched:     5
+16:26:37 | INFO    |   Urgent outreach:        0
+16:26:37 | INFO    |   Pitches generated:      0
+16:26:37 | INFO    |   Scheduled touchpoints:  0
+16:26:37 | INFO    |   API usage:              coresignal=30/1000 | google_search=20/95 | newsapi=5/95
+16:26:37 | INFO    |     output\scored_leads_20260420_162500.csv
+16:26:37 | INFO    |     output\top40_shortlist_20260420_162500.csv
+16:26:37 | INFO    |     output\pitches_20260420_162500.csv
+16:26:37 | INFO    |     output\outreach_schedule_20260420_162500.csv
+16:26:37 | INFO    | =================================================================

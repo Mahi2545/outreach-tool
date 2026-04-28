@@ -1,0 +1,27 @@
+16:28:06 | INFO    | =================================================================
+16:28:06 | INFO    |   KREATORVERSE LEAD SCORING ENGINE
+16:28:06 | INFO    | =================================================================
+16:28:06 | INFO    |   Input file: NY lead sheet .xlsx
+16:28:06 | INFO    |   Test mode:  True
+16:28:06 | INFO    |   Coresignal: Configured
+16:28:06 | INFO    |   Google CSE: Configured
+16:28:06 | INFO    |   NewsAPI:    Configured
+16:28:06 | INFO    |   OpenAI:     Configured
+16:28:06 | INFO    | =================================================================
+16:28:06 | INFO    | 
+STEP 1: Reading lead data...
+16:28:07 | INFO    |   Loaded 5 companies from NY lead sheet .xlsx
+16:28:07 | INFO    |   [1] SPBD Microfinance Network      | Rev:      0 | Emp: 56
+16:28:07 | INFO    |   [2] First Northern Bank and Trust Co. | Rev:      0 | Emp: 92
+16:28:07 | INFO    |   [3] NBT Insurance Agency, LLC      | Rev:      0 | Emp: 83
+16:28:07 | INFO    |   [4] Highstreet Insurance & Financial Services, Upstate NY | Rev:      0 | Emp: 64
+16:28:07 | INFO    |   [5] Berkley Custom Insurance Managers (a Berkley Company) | Rev:      0 | Emp: 65
+16:28:07 | INFO    | 
+STEP 2: SKIPPED (--skip-enrich)
+16:28:07 | INFO    |   Loading from cache: cache\enriched_20260420_162554.csv
+16:28:07 | INFO    | 
+STEP 3: Scoring and classifying leads...
+16:28:07 | INFO    |   Saved: output\scored_leads_20260420_162806.csv
+16:28:07 | INFO    | 
+  FULL SCORED LIST:
+16:28:07 | INFO    |     #  Score  Tier    Urgent   Company                         Breakdown

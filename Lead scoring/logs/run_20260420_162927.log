@@ -1,0 +1,65 @@
+16:29:27 | INFO    | =================================================================
+16:29:27 | INFO    |   KREATORVERSE LEAD SCORING ENGINE
+16:29:27 | INFO    | =================================================================
+16:29:27 | INFO    |   Input file: c:\Users\FCI\OneDrive\Desktop\Chatgpt-review-analysis-main\Lead scoring\NY lead sheet .xlsx
+16:29:27 | INFO    |   Test mode:  True
+16:29:27 | INFO    |   Coresignal: Configured
+16:29:27 | INFO    |   Google CSE: Configured
+16:29:27 | INFO    |   NewsAPI:    Configured
+16:29:27 | INFO    |   OpenAI:     Configured
+16:29:27 | INFO    | =================================================================
+16:29:27 | INFO    | 
+STEP 1: Reading lead data...
+16:29:28 | INFO    |   Loaded 5 companies from c:\Users\FCI\OneDrive\Desktop\Chatgpt-review-analysis-main\Lead scoring\NY lead sheet .xlsx
+16:29:28 | INFO    |   [1] SPBD Microfinance Network      | Rev:      0 | Emp: 56
+16:29:28 | INFO    |   [2] First Northern Bank and Trust Co. | Rev:      0 | Emp: 92
+16:29:28 | INFO    |   [3] NBT Insurance Agency, LLC      | Rev:      0 | Emp: 83
+16:29:28 | INFO    |   [4] Highstreet Insurance & Financial Services, Upstate NY | Rev:      0 | Emp: 64
+16:29:28 | INFO    |   [5] Berkley Custom Insurance Managers (a Berkley Company) | Rev:      0 | Emp: 65
+16:29:28 | INFO    | 
+STEP 2: SKIPPED (--skip-enrich)
+16:29:28 | INFO    |   Loading from cache: cache\enriched_20260420_162554.csv
+16:29:28 | INFO    | 
+STEP 3: Scoring and classifying leads...
+16:29:28 | INFO    |   Scoring: HOT=0 | WARM=0 | COLD=5 | URGENT=0
+16:29:28 | INFO    |   Saved: output\scored_leads_20260420_162927.csv
+16:29:28 | INFO    | 
+  FULL SCORED LIST:
+16:29:28 | INFO    |   ---------------------------------------------------------------------------
+16:29:28 | INFO    |     #  Score  Tier    Urgent   Company                         Breakdown
+16:29:28 | INFO    |   ---------------------------------------------------------------------------
+16:29:28 | INFO    |     1      8  COLD             SPBD Microfinance Network       H:0.0/25 | F:0.0/20 | L:0.0/20 | R:5.0/15 | C:3.0/10 | S:0.0/10 | = 8/100
+16:29:28 | INFO    |     2      8  COLD             First Northern Bank and Trust   H:0.0/25 | F:0.0/20 | L:0.0/20 | R:5.0/15 | C:3.0/10 | S:0.0/10 | = 8/100
+16:29:28 | INFO    |     3      8  COLD             NBT Insurance Agency, LLC       H:0.0/25 | F:0.0/20 | L:0.0/20 | R:5.0/15 | C:3.0/10 | S:0.0/10 | = 8/100
+16:29:28 | INFO    |     4      8  COLD             Highstreet Insurance & Financi  H:0.0/25 | F:0.0/20 | L:0.0/20 | R:5.0/15 | C:3.0/10 | S:0.0/10 | = 8/100
+16:29:28 | INFO    |     5      8  COLD             Berkley Custom Insurance Manag  H:0.0/25 | F:0.0/20 | L:0.0/20 | R:5.0/15 | C:3.0/10 | S:0.0/10 | = 8/100
+16:29:28 | INFO    | 
+STEP 4: Creating top 40 shortlist...
+16:29:28 | INFO    |   Saved: output\top40_shortlist_20260420_162927.csv
+16:29:28 | INFO    |   Shortlist: 0 HOT | 0 WARM | 5 COLD | 0 URGENT
+16:29:28 | INFO    | 
+STEP 5: Generating personalized pitches...
+16:29:28 | INFO    |   Saved: output\pitches_20260420_162927.csv
+16:29:28 | INFO    |   Generated 0 pitches
+16:29:28 | INFO    | 
+STEP 6: Building outreach schedule...
+16:29:28 | INFO    |   Schedule: 0 touchpoints created
+16:29:28 | INFO    |   Saved: output\outreach_schedule_20260420_162927.csv
+16:29:28 | INFO    | 
+=================================================================
+16:29:28 | INFO    |   PIPELINE COMPLETE
+16:29:28 | INFO    | =================================================================
+16:29:28 | INFO    |   Companies processed:    5
+16:29:28 | INFO    |   Companies enriched:     5
+16:29:28 | INFO    |   Distribution:           0 HOT | 0 WARM | 5 COLD
+16:29:28 | INFO    |   Urgent outreach:        0
+16:29:28 | INFO    |   Pitches generated:      0
+16:29:28 | INFO    |   Scheduled touchpoints:  0
+16:29:28 | INFO    |   API usage:              No API calls yet
+16:29:28 | INFO    | 
+  OUTPUT FILES:
+16:29:28 | INFO    |     output\scored_leads_20260420_162927.csv
+16:29:28 | INFO    |     output\top40_shortlist_20260420_162927.csv
+16:29:28 | INFO    |     output\pitches_20260420_162927.csv
+16:29:28 | INFO    |     output\outreach_schedule_20260420_162927.csv
+16:29:28 | INFO    | =================================================================

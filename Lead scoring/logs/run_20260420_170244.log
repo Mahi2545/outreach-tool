@@ -1,0 +1,210 @@
+17:02:44 | INFO    | =================================================================
+17:02:44 | INFO    |   KREATORVERSE LEAD SCORING ENGINE
+17:02:44 | INFO    | =================================================================
+17:02:44 | INFO    |   Input file: .\NY_lead_sheet.xlsx
+17:02:44 | INFO    |   Test mode:  False
+17:02:44 | INFO    |   Coresignal: Configured
+17:02:44 | INFO    |   Google CSE: Configured
+17:02:44 | INFO    |   NewsAPI:    Configured
+17:02:44 | INFO    |   OpenAI:     Configured
+17:02:44 | INFO    |   Outreach outputs (pitches/schedule): OFF
+17:02:44 | INFO    | =================================================================
+17:02:44 | INFO    | 
+STEP 1: Reading lead data...
+17:02:45 | INFO    |   Loaded 20 companies from .\NY_lead_sheet.xlsx
+17:02:45 | INFO    |   [1] General Vision Services        | Rev:      0 | Emp: 72
+17:02:45 | INFO    |   [2] Lake Shore Bank                | Rev:      0 | Emp: 90
+17:02:45 | INFO    |   [3] Hanover Street Capital         | Rev:      0 | Emp: 74
+17:02:45 | INFO    |   [4] Mitsubishi Corporation (Americas) | Rev:      0 | Emp: 140
+17:02:45 | INFO    |   [5] Vision Financial Group         | Rev:      0 | Emp: 196
+17:02:45 | INFO    |   [6] Madison Mortgage Services Inc. | Rev:      0 | Emp: 78
+17:02:45 | INFO    |   [7] MLB Residential Lending, LLC.  | Rev:      0 | Emp: 124
+17:02:45 | INFO    |   [8] Velocity Investments           | Rev:      0 | Emp: 59
+17:02:45 | INFO    |   [9] PCSB Bank                      | Rev:      0 | Emp: 658
+17:02:45 | INFO    |   [10] Ukrainian Federal Credit Union | Rev:      0 | Emp: 61
+17:02:45 | INFO    |   [11] Emery & Webb Insurance         | Rev:      0 | Emp: 93
+17:02:45 | INFO    |   [12] The Milford Bank               | Rev:      0 | Emp: 95
+17:02:45 | INFO    |   [13] Ingalls & Snyder               | Rev:      0 | Emp: 86
+17:02:45 | INFO    |   [14] Hartford Funding, Ltd.         | Rev:      0 | Emp: 81
+17:02:45 | INFO    |   [15] Berkley Alliance Managers (a Berkley Company) | Rev:      0 | Emp: 51
+17:02:45 | INFO    |   [16] SPBD Microfinance Network      | Rev:      0 | Emp: 56
+17:02:45 | INFO    |   [17] First Northern Bank and Trust Co. | Rev:      0 | Emp: 92
+17:02:45 | INFO    |   [18] NBT Insurance Agency, LLC      | Rev:      0 | Emp: 83
+17:02:45 | INFO    |   [19] Highstreet Insurance & Financial Services, Upstate NY | Rev:      0 | Emp: 64
+17:02:45 | INFO    |   [20] Berkley Custom Insurance Managers (a Berkley Company) | Rev:      0 | Emp: 65
+17:02:45 | INFO    | 
+STEP 2: Enriching companies with live signals...
+17:02:45 | INFO    | 
+  [1/20] ----------------------
+17:02:45 | INFO    |   Enriching: General Vision Services
+17:03:00 | INFO    |     Leadership: 0 senior hires found
+17:03:04 | INFO    |     Funding: 0 events found
+17:03:06 | INFO    |     Strategic: None found
+17:03:06 | INFO    | 
+  [2/20] ----------------------
+17:03:06 | INFO    |   Enriching: Lake Shore Bank
+17:03:20 | INFO    |     Leadership: 0 senior hires found
+17:03:23 | INFO    |     Funding: 0 events found
+17:03:25 | INFO    |     Strategic: None found
+17:03:25 | INFO    | 
+  [3/20] ----------------------
+17:03:25 | INFO    |   Enriching: Hanover Street Capital
+17:03:40 | INFO    |     Leadership: 0 senior hires found
+17:03:43 | INFO    |     Funding: 0 events found
+17:03:46 | INFO    |     Strategic: None found
+17:03:46 | INFO    | 
+  [4/20] ----------------------
+17:03:46 | INFO    |   Enriching: Mitsubishi Corporation (Americas)
+17:04:07 | INFO    |     Leadership: 0 senior hires found
+17:04:10 | INFO    |     Funding: 0 events found
+17:04:12 | INFO    |     Strategic: None found
+17:04:12 | INFO    | 
+  [5/20] ----------------------
+17:04:12 | INFO    |   Enriching: Vision Financial Group
+17:04:27 | INFO    |     Leadership: 0 senior hires found
+17:04:31 | INFO    |     Funding: 0 events found
+17:04:33 | INFO    |     Strategic: None found
+17:04:33 | INFO    |   API usage: coresignal=30/1000 | google_search=20/95 | newsapi=5/95
+17:04:33 | INFO    | 
+  [6/20] ----------------------
+17:04:33 | INFO    |   Enriching: Madison Mortgage Services Inc.
+17:04:47 | INFO    |     Leadership: 0 senior hires found
+17:04:51 | INFO    |     Funding: 0 events found
+17:04:53 | INFO    |     Strategic: None found
+17:04:53 | INFO    | 
+  [7/20] ----------------------
+17:04:53 | INFO    |   Enriching: MLB Residential Lending, LLC.
+17:05:08 | INFO    |     Leadership: 0 senior hires found
+17:05:11 | INFO    |     Funding: 0 events found
+17:05:13 | INFO    |     Strategic: None found
+17:05:13 | INFO    | 
+  [8/20] ----------------------
+17:05:13 | INFO    |   Enriching: Velocity Investments
+17:05:29 | INFO    |     Leadership: 0 senior hires found
+17:05:33 | INFO    |     Funding: 0 events found
+17:05:35 | INFO    |     Strategic: None found
+17:05:35 | INFO    | 
+  [9/20] ----------------------
+17:05:35 | INFO    |   Enriching: PCSB Bank
+17:05:49 | INFO    |     Leadership: 0 senior hires found
+17:05:53 | INFO    |     Funding: 0 events found
+17:05:55 | INFO    |     Strategic: None found
+17:05:55 | INFO    | 
+  [10/20] ----------------------
+17:05:55 | INFO    |   Enriching: Ukrainian Federal Credit Union
+17:06:10 | INFO    |     Leadership: 0 senior hires found
+17:06:13 | INFO    |     Funding: 0 events found
+17:06:15 | INFO    |     Strategic: None found
+17:06:15 | INFO    |   API usage: coresignal=60/1000 | google_search=40/95 | newsapi=10/95
+17:06:15 | INFO    | 
+  [11/20] ----------------------
+17:06:15 | INFO    |   Enriching: Emery & Webb Insurance
+17:06:30 | INFO    |     Leadership: 0 senior hires found
+17:06:33 | INFO    |     Funding: 0 events found
+17:06:35 | INFO    |     Strategic: None found
+17:06:35 | INFO    | 
+  [12/20] ----------------------
+17:06:35 | INFO    |   Enriching: The Milford Bank
+17:06:50 | INFO    |     Leadership: 0 senior hires found
+17:06:53 | INFO    |     Funding: 0 events found
+17:06:55 | INFO    |     Strategic: None found
+17:06:55 | INFO    | 
+  [13/20] ----------------------
+17:06:55 | INFO    |   Enriching: Ingalls & Snyder
+17:07:09 | INFO    |     Leadership: 0 senior hires found
+17:07:13 | INFO    |     Funding: 0 events found
+17:07:15 | INFO    |     Strategic: None found
+17:07:15 | INFO    | 
+  [14/20] ----------------------
+17:07:15 | INFO    |   Enriching: Hartford Funding, Ltd.
+17:07:29 | INFO    |     Leadership: 0 senior hires found
+17:07:33 | INFO    |     Funding: 0 events found
+17:07:35 | INFO    |     Strategic: None found
+17:07:35 | INFO    | 
+  [15/20] ----------------------
+17:07:35 | INFO    |   Enriching: Berkley Alliance Managers (a Berkley Company)
+17:07:50 | INFO    |     Leadership: 0 senior hires found
+17:07:53 | INFO    |     Funding: 0 events found
+17:07:56 | INFO    |     Strategic: None found
+17:07:56 | INFO    |   API usage: coresignal=90/1000 | google_search=60/95 | newsapi=15/95
+17:07:56 | INFO    | 
+  [16/20] ----------------------
+17:07:56 | INFO    |   Enriching: SPBD Microfinance Network
+17:08:10 | INFO    |     Leadership: 0 senior hires found
+17:08:13 | INFO    |     Funding: 0 events found
+17:08:16 | INFO    |     Strategic: None found
+17:08:16 | INFO    | 
+  [17/20] ----------------------
+17:08:16 | INFO    |   Enriching: First Northern Bank and Trust Co.
+17:08:31 | INFO    |     Leadership: 0 senior hires found
+17:08:34 | INFO    |     Funding: 0 events found
+17:08:36 | INFO    |     Strategic: None found
+17:08:36 | INFO    | 
+  [18/20] ----------------------
+17:08:36 | INFO    |   Enriching: NBT Insurance Agency, LLC
+17:08:51 | INFO    |     Leadership: 0 senior hires found
+17:08:55 | INFO    |     Funding: 0 events found
+17:08:57 | INFO    |     Strategic: None found
+17:08:57 | INFO    | 
+  [19/20] ----------------------
+17:08:57 | INFO    |   Enriching: Highstreet Insurance & Financial Services, Upstate NY
+17:09:11 | INFO    |     Leadership: 0 senior hires found
+17:09:15 | INFO    |     Funding: 0 events found
+17:09:17 | INFO    |     Strategic: None found
+17:09:17 | INFO    | 
+  [20/20] ----------------------
+17:09:17 | INFO    |   Enriching: Berkley Custom Insurance Managers (a Berkley Company)
+17:09:31 | INFO    |     Leadership: 0 senior hires found
+17:09:35 | INFO    |     Funding: 0 events found
+17:09:37 | INFO    |     Strategic: None found
+17:09:37 | INFO    |   API usage: coresignal=120/1000 | google_search=80/95 | newsapi=20/95
+17:09:37 | INFO    |   Cached: cache\enriched_20260420_170244.csv
+17:09:37 | INFO    | 
+STEP 3: Scoring and classifying leads...
+17:09:37 | INFO    |   Scoring: HOT=0 | WARM=0 | COLD=20 | URGENT=0
+17:09:37 | INFO    | 
+  FULL SCORED LIST:
+17:09:37 | INFO    |   ---------------------------------------------------------------------------
+17:09:37 | INFO    |     #  Score  Tier    Urgent   Company                         Breakdown
+17:09:37 | INFO    |   ---------------------------------------------------------------------------
+17:09:37 | INFO    |     1      8  COLD             General Vision Services         H:0/25 | F:0/20 | L:0/20 | R:5/15 | C:3/10 | S:0/10 | = 8/100
+17:09:37 | INFO    |     2      8  COLD             Lake Shore Bank                 H:0/25 | F:0/20 | L:0/20 | R:5/15 | C:3/10 | S:0/10 | = 8/100
+17:09:37 | INFO    |     3      8  COLD             Hanover Street Capital          H:0/25 | F:0/20 | L:0/20 | R:5/15 | C:3/10 | S:0/10 | = 8/100
+17:09:37 | INFO    |     4      8  COLD             Mitsubishi Corporation (Americ  H:0/25 | F:0/20 | L:0/20 | R:5/15 | C:3/10 | S:0/10 | = 8/100
+17:09:37 | INFO    |     5      8  COLD             Vision Financial Group          H:0/25 | F:0/20 | L:0/20 | R:5/15 | C:3/10 | S:0/10 | = 8/100
+17:09:37 | INFO    |     6      8  COLD             Madison Mortgage Services Inc.  H:0/25 | F:0/20 | L:0/20 | R:5/15 | C:3/10 | S:0/10 | = 8/100
+17:09:37 | INFO    |     7      8  COLD             MLB Residential Lending, LLC.   H:0/25 | F:0/20 | L:0/20 | R:5/15 | C:3/10 | S:0/10 | = 8/100
+17:09:37 | INFO    |     8      8  COLD             Velocity Investments            H:0/25 | F:0/20 | L:0/20 | R:5/15 | C:3/10 | S:0/10 | = 8/100
+17:09:37 | INFO    |     9      8  COLD             PCSB Bank                       H:0/25 | F:0/20 | L:0/20 | R:5/15 | C:3/10 | S:0/10 | = 8/100
+17:09:37 | INFO    |    10      8  COLD             Ukrainian Federal Credit Union  H:0/25 | F:0/20 | L:0/20 | R:5/15 | C:3/10 | S:0/10 | = 8/100
+17:09:37 | INFO    |    11      8  COLD             Emery & Webb Insurance          H:0/25 | F:0/20 | L:0/20 | R:5/15 | C:3/10 | S:0/10 | = 8/100
+17:09:37 | INFO    |    12      8  COLD             The Milford Bank                H:0/25 | F:0/20 | L:0/20 | R:5/15 | C:3/10 | S:0/10 | = 8/100
+17:09:37 | INFO    |    13      8  COLD             Ingalls & Snyder                H:0/25 | F:0/20 | L:0/20 | R:5/15 | C:3/10 | S:0/10 | = 8/100
+17:09:37 | INFO    |    14      8  COLD             Hartford Funding, Ltd.          H:0/25 | F:0/20 | L:0/20 | R:5/15 | C:3/10 | S:0/10 | = 8/100
+17:09:37 | INFO    |    15      8  COLD             Berkley Alliance Managers (a B  H:0/25 | F:0/20 | L:0/20 | R:5/15 | C:3/10 | S:0/10 | = 8/100
+17:09:37 | INFO    |    16      8  COLD             SPBD Microfinance Network       H:0/25 | F:0/20 | L:0/20 | R:5/15 | C:3/10 | S:0/10 | = 8/100
+17:09:37 | INFO    |    17      8  COLD             First Northern Bank and Trust   H:0/25 | F:0/20 | L:0/20 | R:5/15 | C:3/10 | S:0/10 | = 8/100
+17:09:37 | INFO    |    18      8  COLD             NBT Insurance Agency, LLC       H:0/25 | F:0/20 | L:0/20 | R:5/15 | C:3/10 | S:0/10 | = 8/100
+17:09:37 | INFO    |    19      8  COLD             Highstreet Insurance & Financi  H:0/25 | F:0/20 | L:0/20 | R:5/15 | C:3/10 | S:0/10 | = 8/100
+17:09:37 | INFO    |    20      8  COLD             Berkley Custom Insurance Manag  H:0/25 | F:0/20 | L:0/20 | R:5/15 | C:3/10 | S:0/10 | = 8/100
+17:09:37 | INFO    | 
+STEP 4: Creating top 40 shortlist...
+17:09:37 | INFO    |   Shortlist: 0 HOT | 0 WARM | 20 COLD | 0 URGENT
+17:09:37 | INFO    | 
+STEP 5-6: Skipped outreach outputs (pitches/schedule).
+17:09:37 | INFO    |   Saved: output\lead_insights_20260420_170244.xlsx
+17:09:37 | INFO    | 
+=================================================================
+17:09:37 | INFO    |   PIPELINE COMPLETE
+17:09:37 | INFO    | =================================================================
+17:09:37 | INFO    |   Companies processed:    20
+17:09:37 | INFO    |   Companies enriched:     20
+17:09:37 | INFO    |   Distribution:           0 HOT | 0 WARM | 20 COLD
+17:09:37 | INFO    |   Urgent outreach:        0
+17:09:37 | INFO    |   Pitches generated:      0
+17:09:37 | INFO    |   Scheduled touchpoints:  0
+17:09:37 | INFO    |   API usage:              coresignal=120/1000 | google_search=80/95 | newsapi=20/95
+17:09:37 | INFO    | 
+  OUTPUT FILES:
+17:09:37 | INFO    |     output\lead_insights_20260420_170244.xlsx
+17:09:37 | INFO    | =================================================================

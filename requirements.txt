@@ -3,3 +3,4 @@ openpyxl
 ddgs
 rapidfuzz
 requests
+python-dotenv

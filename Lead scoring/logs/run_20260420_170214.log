@@ -1,0 +1,71 @@
+17:02:14 | INFO    | =================================================================
+17:02:14 | INFO    |   KREATORVERSE LEAD SCORING ENGINE
+17:02:14 | INFO    | =================================================================
+17:02:14 | INFO    |   Input file: c:\Users\FCI\OneDrive\Desktop\Chatgpt-review-analysis-main\Lead scoring\NY_lead_sheet.xlsx
+17:02:14 | INFO    |   Test mode:  True
+17:02:14 | INFO    |   Coresignal: Configured
+17:02:14 | INFO    |   Google CSE: Configured
+17:02:14 | INFO    |   NewsAPI:    Configured
+17:02:14 | INFO    |   OpenAI:     Configured
+17:02:14 | INFO    |   Outreach outputs (pitches/schedule): OFF
+17:02:14 | INFO    | =================================================================
+17:02:14 | INFO    | 
+STEP 1: Reading lead data...
+17:02:14 | INFO    |   Loaded 5 companies from c:\Users\FCI\OneDrive\Desktop\Chatgpt-review-analysis-main\Lead scoring\NY_lead_sheet.xlsx
+17:02:14 | INFO    |   [1] SPBD Microfinance Network      | Rev:      0 | Emp: 56
+17:02:14 | INFO    |   [2] First Northern Bank and Trust Co. | Rev:      0 | Emp: 92
+17:02:14 | INFO    |   [3] NBT Insurance Agency, LLC      | Rev:      0 | Emp: 83
+17:02:14 | INFO    |   [4] Highstreet Insurance & Financial Services, Upstate NY | Rev:      0 | Emp: 64
+17:02:14 | INFO    |   [5] Berkley Custom Insurance Managers (a Berkley Company) | Rev:      0 | Emp: 65
+17:02:14 | INFO    | 
+STEP 2: SKIPPED (--skip-enrich)
+17:02:14 | INFO    |   Loading from cache: cache\enriched_20260420_163301.csv
+17:02:14 | INFO    | 
+STEP 3: Scoring and classifying leads...
+17:02:14 | INFO    |   Scoring: HOT=0 | WARM=0 | COLD=20 | URGENT=0
+17:02:14 | INFO    | 
+  FULL SCORED LIST:
+17:02:14 | INFO    |   ---------------------------------------------------------------------------
+17:02:14 | INFO    |     #  Score  Tier    Urgent   Company                         Breakdown
+17:02:14 | INFO    |   ---------------------------------------------------------------------------
+17:02:14 | INFO    |     1      8  COLD             General Vision Services         H:0.0/25 | F:0.0/20 | L:0.0/20 | R:5.0/15 | C:3.0/10 | S:0.0/10 | = 8/100
+17:02:14 | INFO    |     2      8  COLD             Lake Shore Bank                 H:0.0/25 | F:0.0/20 | L:0.0/20 | R:5.0/15 | C:3.0/10 | S:0.0/10 | = 8/100
+17:02:14 | INFO    |     3      8  COLD             Hanover Street Capital          H:0.0/25 | F:0.0/20 | L:0.0/20 | R:5.0/15 | C:3.0/10 | S:0.0/10 | = 8/100
+17:02:14 | INFO    |     4      8  COLD             Mitsubishi Corporation (Americ  H:0.0/25 | F:0.0/20 | L:0.0/20 | R:5.0/15 | C:3.0/10 | S:0.0/10 | = 8/100
+17:02:14 | INFO    |     5      8  COLD             Vision Financial Group          H:0.0/25 | F:0.0/20 | L:0.0/20 | R:5.0/15 | C:3.0/10 | S:0.0/10 | = 8/100
+17:02:14 | INFO    |     6      8  COLD             Madison Mortgage Services Inc.  H:0.0/25 | F:0.0/20 | L:0.0/20 | R:5.0/15 | C:3.0/10 | S:0.0/10 | = 8/100
+17:02:14 | INFO    |     7      8  COLD             MLB Residential Lending, LLC.   H:0.0/25 | F:0.0/20 | L:0.0/20 | R:5.0/15 | C:3.0/10 | S:0.0/10 | = 8/100
+17:02:14 | INFO    |     8      8  COLD             Velocity Investments            H:0.0/25 | F:0.0/20 | L:0.0/20 | R:5.0/15 | C:3.0/10 | S:0.0/10 | = 8/100
+17:02:14 | INFO    |     9      8  COLD             PCSB Bank                       H:0.0/25 | F:0.0/20 | L:0.0/20 | R:5.0/15 | C:3.0/10 | S:0.0/10 | = 8/100
+17:02:14 | INFO    |    10      8  COLD             Ukrainian Federal Credit Union  H:0.0/25 | F:0.0/20 | L:0.0/20 | R:5.0/15 | C:3.0/10 | S:0.0/10 | = 8/100
+17:02:14 | INFO    |    11      8  COLD             Emery & Webb Insurance          H:0.0/25 | F:0.0/20 | L:0.0/20 | R:5.0/15 | C:3.0/10 | S:0.0/10 | = 8/100
+17:02:14 | INFO    |    12      8  COLD             The Milford Bank                H:0.0/25 | F:0.0/20 | L:0.0/20 | R:5.0/15 | C:3.0/10 | S:0.0/10 | = 8/100
+17:02:14 | INFO    |    13      8  COLD             Ingalls & Snyder                H:0.0/25 | F:0.0/20 | L:0.0/20 | R:5.0/15 | C:3.0/10 | S:0.0/10 | = 8/100
+17:02:14 | INFO    |    14      8  COLD             Hartford Funding, Ltd.          H:0.0/25 | F:0.0/20 | L:0.0/20 | R:5.0/15 | C:3.0/10 | S:0.0/10 | = 8/100
+17:02:14 | INFO    |    15      8  COLD             Berkley Alliance Managers (a B  H:0.0/25 | F:0.0/20 | L:0.0/20 | R:5.0/15 | C:3.0/10 | S:0.0/10 | = 8/100
+17:02:14 | INFO    |    16      8  COLD             SPBD Microfinance Network       H:0.0/25 | F:0.0/20 | L:0.0/20 | R:5.0/15 | C:3.0/10 | S:0.0/10 | = 8/100
+17:02:14 | INFO    |    17      8  COLD             First Northern Bank and Trust   H:0.0/25 | F:0.0/20 | L:0.0/20 | R:5.0/15 | C:3.0/10 | S:0.0/10 | = 8/100
+17:02:14 | INFO    |    18      8  COLD             NBT Insurance Agency, LLC       H:0.0/25 | F:0.0/20 | L:0.0/20 | R:5.0/15 | C:3.0/10 | S:0.0/10 | = 8/100
+17:02:14 | INFO    |    19      8  COLD             Highstreet Insurance & Financi  H:0.0/25 | F:0.0/20 | L:0.0/20 | R:5.0/15 | C:3.0/10 | S:0.0/10 | = 8/100
+17:02:14 | INFO    |    20      8  COLD             Berkley Custom Insurance Manag  H:0.0/25 | F:0.0/20 | L:0.0/20 | R:5.0/15 | C:3.0/10 | S:0.0/10 | = 8/100
+17:02:14 | INFO    | 
+STEP 4: Creating top 40 shortlist...
+17:02:14 | INFO    |   Shortlist: 0 HOT | 0 WARM | 20 COLD | 0 URGENT
+17:02:14 | INFO    | 
+STEP 5-6: Skipped outreach outputs (pitches/schedule).
+17:02:14 | INFO    |   Saved: output\lead_insights_20260420_170214.xlsx
+17:02:14 | INFO    | 
+=================================================================
+17:02:14 | INFO    |   PIPELINE COMPLETE
+17:02:14 | INFO    | =================================================================
+17:02:14 | INFO    |   Companies processed:    5
+17:02:14 | INFO    |   Companies enriched:     20
+17:02:14 | INFO    |   Distribution:           0 HOT | 0 WARM | 20 COLD
+17:02:14 | INFO    |   Urgent outreach:        0
+17:02:14 | INFO    |   Pitches generated:      0
+17:02:14 | INFO    |   Scheduled touchpoints:  0
+17:02:14 | INFO    |   API usage:              No API calls yet
+17:02:14 | INFO    | 
+  OUTPUT FILES:
+17:02:14 | INFO    |     output\lead_insights_20260420_170214.xlsx
+17:02:14 | INFO    | =================================================================
