@@ -1,6 +1,8 @@
+streamlit
+google-generativeai
+python-dotenv
 pandas
 openpyxl
-ddgs
 rapidfuzz
 requests
-python-dotenv
+ddgs
