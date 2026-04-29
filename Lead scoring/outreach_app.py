@@ -95,7 +95,7 @@ st.markdown("Draft hyper-personalized executive outreach emails based on Yuva's 
 with st.sidebar:
     st.header("Context & Settings")
     
-    st.info("💡 **Free API Suggestion:** We recommend using the **Google Gemini API** (Gemini 1.5 Flash). You can get a free API key instantly at [Google AI Studio](https://aistudio.google.com/app/apikey) (up to 15 requests/minute for free).")
+    st.info("💡 **Free API Suggestion:** We recommend using the **Google Gemini API** (Gemini 2.5 Flash). You can get a free API key instantly at [Google AI Studio](https://aistudio.google.com/app/apikey) (up to 15 requests/minute for free).")
     
     temp_key = st.text_input("Enter your Gemini API Key:", type="password", value=api_key if api_key else "")
     if temp_key:
@@ -147,7 +147,7 @@ if generate_btn:
             
             try:
                 model = genai.GenerativeModel(
-                    "gemini-1.5-flash",
+                    "gemini-2.5-flash",
                     system_instruction=SYSTEM_PROMPT
                 )
                 
