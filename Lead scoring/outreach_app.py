@@ -7,7 +7,13 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Set up Gemini client
-api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
+# Priority: 1. Streamlit Secrets (Cloud) -> 2. .env file (Local) -> 3. GOOGLE_API_KEY
+api_key = None
+if "GEMINI_API_KEY" in st.secrets:
+    api_key = st.secrets["GEMINI_API_KEY"]
+else:
+    api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
+
 if api_key:
     genai.configure(api_key=api_key)
 
