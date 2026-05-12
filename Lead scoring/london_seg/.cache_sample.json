@@ -1,0 +1,24 @@
+{
+  "cube|": {
+    "evidence": [
+      "duckduckgo:CUBE official website -site:duckduckgo.com",
+      "duckduckgo:CUBE CEO Lending & RegTech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "thredd|": {
+    "evidence": [
+      "duckduckgo:Thredd official website -site:duckduckgo.com",
+      "duckduckgo:Thredd CEO AI-Native FinTechs site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  }
+}

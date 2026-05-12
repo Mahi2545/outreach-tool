@@ -1,0 +1,864 @@
+{
+  "cube|": {
+    "evidence": [
+      "duckduckgo:CUBE official website",
+      "https://duckduckgo.com",
+      "https://duckduckgo.com/about",
+      "https://duckduckgo.com/company",
+      "https://duckduckgo.com/team",
+      "https://duckduckgo.com/leadership",
+      "https://duckduckgo.com/careers",
+      "https://duckduckgo.com/security",
+      "https://duckduckgo.com/compliance",
+      "duckduckgo:CUBE CEO Lending & RegTech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [
+      "shield-boom-dark@2x.avif",
+      "shield-boom-dark@3x.avif",
+      "shield-boom-dark@2x.webp",
+      "shield-boom-dark@3x.webp",
+      "shield-boom-dark@2x.png"
+    ],
+    "site_text": "DuckDuckGo - Protection. Privacy. Peace of mind. body { display: none } body { display: none;} html.partially-hydrated body { display: block;} body { display: block;} self.globalThis=self.globalThis||self !function(e){function n(e){try{let n=new URL(e);return n.searchParams.delete(\"q\"),n.href}catch(n){let t=e.split(\"?\"),r=\"\";if(2===t.length){let e=t[1].split(\"&\"),n=[];for(let t=0;t<e.length;t++)0!==e[t].indexOf(\"q=\")&&n.push(e[t]);r=n.join(\"&\")}return t[0]+(r?\"?\"+r:\"\")}}function t(e,n){let t=\"https://improving.duckduckgo.com/t/static_err_\"+e+\"?\"+Math.ceil(1e7*Math.random())+Object.keys(n).reduce(function(e,t){return e+\"&\"+t+\"=\"+n[t]},\"\");window.navigator.sendBeacon?window.navigator.sendBeacon(t):(new Image).src=t}let r=[\"Error: Script error.\",\"iframe[id='198230182308109283091823098102938908128390'])\",\"MDCore is not defined\"];window.onerror=function(o,a,i,s,c){var d;let h;if(\"object\"==typeof o&&o instanceof Error&&(o=o.message),!a&&!o||(()=>{if(\"string\"!=typeof o)return!1;for(let e=0;e<r.length;e++)if(-1!==o.indexOf(r[e]))return!0;return!1})())return;let l=(h=\"global\",\"undefined\"===(d=a)&&(d=void 0),!d||-1===d.indexOf(\"-extension://\")&&-1===d.indexOf(\"chrome-\")?d&&0!==d.indexOf(\"http\")?h=\"ignore-protocol\":d&&i&&0!==i&&s&&0!==s||(h=\"ignore\"):h=\"ignore-ext\",h),f={};-1===l.indexOf(\"ignore\")&&(f={msg:\"string\"==typeof o?encodeURIComponent(o):\"na\",url:a?encodeURIComponent(n(a)):\"na\",line:i,col:s,href:encodeURIComponent(n(window.location.href)),pathname:encodeURIComponent(window.location.pathname),stack:encodeURIComponent(c&&c instanceof Error?e(c.stack):\"na\")}),t(l,f)},window.addEventListener(\"unhandledrejection\",function(e){t(\"unhandledrejection\",{msg:encodeURIComponent(e&&e.reason instanceof Error?e.reason.message:e&&\"string\"==typeof e.reason?e.reason:\"na\")})})}(function(e){return e?e.split(\"\\n\").map(e=>{let n=/(https?:\\/\\/|[a-z-]+:\\/\\/|blob:)[^\\s)]+/gi,t=e.match(n);if(!t)return e;for(let e of t)if(!e.startsWith(\"http://\")&&!e.startsWith(\"https://\")){let n=e.match(/^([a-z-]+):/);return` at [${n?n[1]:\"unknown\"}-protocol]`}return e.replace(n,e=>{try{if(e.startsWith(\"blob:\"))return\"[blob-url]\";let n=e.match(/(:\\d+(:\\d+)*)$/),t=n?n[0]:\"\",r=e.replace(/:\\d+(:\\d+)*$/,\"\"),o=new URL(r);return o.hostname.endsWith(\"duckduckgo.com\")||o.hostname.endsWith(\"duck.co\")||o.hostname.endsWith(\"react.dev\")?o.pathname.endsWith(\".js\")||o.pathname.endsWith(\".html\")?(o.searchParams.get(\"q\")&&o.searchParams.set(\"q\",\"redacted\"),o.hash&&(o.hash=\"redacted\"),\"\"!==o.port&&(o.port=\"[non-standard-port]\"),o.href+t):\"[non-js-url]\":\"[external-url]\"}catch(e){return\"[invalid-url]\"}})}).join(\"\\n\"):\"na\"}); !function(){let e=\"dark\",t=\"light\",r=function(){let r,i=new URLSearchParams(window.location.search).get(\"kae\");if(i){if(\"-1\"===i)return t;if(\"d\"===i||\"t\"===i)return e}let n=document.cookie.split(/; */);for(let e=0;e<n.length;e++){let t=n[e];if(RegExp(\"^ae=\").test(t)){r=t;break}}if(r){let i=r.split(\"=\")[1];if(\"-1\"===i)return t;if(\"t\"===i)return e}return window.matchMedia(\"(prefers-color-scheme: dark)\").matches?e:t}();document.documentElement.classList.add(r===e?\"theme-dark\":\"theme-light\")}(); (function i(){try{let e=navigator.userAgent,t=document.documentElement.classList;if((()=>{try{return localStorage.getItem(\"shouldDeviceGlobalThrow\")}catch(e){return!1}})())throw Error(\"Test device glboal error\");let n=()=>{let t=e.match(/Android\\s+([0-9]+(?:\\.[0-9]+)?)/i);if(!t)return null;let n=t[1],i=parseInt(n.split(\".\")[0],10);return isNaN(i)?null:i},i=()=>/android/i.test(e),r=()=>!!(/ipad/i.test(e)||/Macintosh/i.test(e)&&/Mac OS X/i.test(e)&&!/like Mac OS X/i.test(e)&&navigator.maxTouchPoints>0||/Macintosh(.*?) FxiOS(.*?)\\//.test(e)),o=()=>/silk/i.test(e),s=()=>{if(/nexus\\s*(?:7|8|9|10).*/i.test(e)||r()||/kftt build/i.test(e)||o()||/tablet(?! pc)/i.test(e))return!0;if(i()){let e=n();if(null!==e&&e>=3)return!0}return!1},a=i()||r()||o()||(()=>{let t=/ipod|iphone/i.test(e),r=/like (ipod|iphone)/i.test(e);if(t&&!r||/nexus\\s*[0-6].*/i.test(e)||/galaxy nexus/i.test(e)||/Nokia/i.tes…",
+    "cxo_names": []
+  },
+  "thredd|": {
+    "evidence": [
+      "duckduckgo:Thredd official website",
+      "https://duckduckgo.com",
+      "https://duckduckgo.com/about",
+      "https://duckduckgo.com/company",
+      "https://duckduckgo.com/team",
+      "https://duckduckgo.com/leadership",
+      "https://duckduckgo.com/careers",
+      "https://duckduckgo.com/security",
+      "https://duckduckgo.com/compliance",
+      "duckduckgo:Thredd CEO AI-Native FinTechs site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [
+      "shield-boom-dark@2x.avif",
+      "shield-boom-dark@3x.avif",
+      "shield-boom-dark@2x.webp",
+      "shield-boom-dark@3x.webp",
+      "shield-boom-dark@2x.png"
+    ],
+    "site_text": "DuckDuckGo - Protection. Privacy. Peace of mind. body { display: none } body { display: none;} html.partially-hydrated body { display: block;} body { display: block;} self.globalThis=self.globalThis||self !function(e){function n(e){try{let n=new URL(e);return n.searchParams.delete(\"q\"),n.href}catch(n){let t=e.split(\"?\"),r=\"\";if(2===t.length){let e=t[1].split(\"&\"),n=[];for(let t=0;t<e.length;t++)0!==e[t].indexOf(\"q=\")&&n.push(e[t]);r=n.join(\"&\")}return t[0]+(r?\"?\"+r:\"\")}}function t(e,n){let t=\"https://improving.duckduckgo.com/t/static_err_\"+e+\"?\"+Math.ceil(1e7*Math.random())+Object.keys(n).reduce(function(e,t){return e+\"&\"+t+\"=\"+n[t]},\"\");window.navigator.sendBeacon?window.navigator.sendBeacon(t):(new Image).src=t}let r=[\"Error: Script error.\",\"iframe[id='198230182308109283091823098102938908128390'])\",\"MDCore is not defined\"];window.onerror=function(o,a,i,s,c){var d;let h;if(\"object\"==typeof o&&o instanceof Error&&(o=o.message),!a&&!o||(()=>{if(\"string\"!=typeof o)return!1;for(let e=0;e<r.length;e++)if(-1!==o.indexOf(r[e]))return!0;return!1})())return;let l=(h=\"global\",\"undefined\"===(d=a)&&(d=void 0),!d||-1===d.indexOf(\"-extension://\")&&-1===d.indexOf(\"chrome-\")?d&&0!==d.indexOf(\"http\")?h=\"ignore-protocol\":d&&i&&0!==i&&s&&0!==s||(h=\"ignore\"):h=\"ignore-ext\",h),f={};-1===l.indexOf(\"ignore\")&&(f={msg:\"string\"==typeof o?encodeURIComponent(o):\"na\",url:a?encodeURIComponent(n(a)):\"na\",line:i,col:s,href:encodeURIComponent(n(window.location.href)),pathname:encodeURIComponent(window.location.pathname),stack:encodeURIComponent(c&&c instanceof Error?e(c.stack):\"na\")}),t(l,f)},window.addEventListener(\"unhandledrejection\",function(e){t(\"unhandledrejection\",{msg:encodeURIComponent(e&&e.reason instanceof Error?e.reason.message:e&&\"string\"==typeof e.reason?e.reason:\"na\")})})}(function(e){return e?e.split(\"\\n\").map(e=>{let n=/(https?:\\/\\/|[a-z-]+:\\/\\/|blob:)[^\\s)]+/gi,t=e.match(n);if(!t)return e;for(let e of t)if(!e.startsWith(\"http://\")&&!e.startsWith(\"https://\")){let n=e.match(/^([a-z-]+):/);return` at [${n?n[1]:\"unknown\"}-protocol]`}return e.replace(n,e=>{try{if(e.startsWith(\"blob:\"))return\"[blob-url]\";let n=e.match(/(:\\d+(:\\d+)*)$/),t=n?n[0]:\"\",r=e.replace(/:\\d+(:\\d+)*$/,\"\"),o=new URL(r);return o.hostname.endsWith(\"duckduckgo.com\")||o.hostname.endsWith(\"duck.co\")||o.hostname.endsWith(\"react.dev\")?o.pathname.endsWith(\".js\")||o.pathname.endsWith(\".html\")?(o.searchParams.get(\"q\")&&o.searchParams.set(\"q\",\"redacted\"),o.hash&&(o.hash=\"redacted\"),\"\"!==o.port&&(o.port=\"[non-standard-port]\"),o.href+t):\"[non-js-url]\":\"[external-url]\"}catch(e){return\"[invalid-url]\"}})}).join(\"\\n\"):\"na\"}); !function(){let e=\"dark\",t=\"light\",r=function(){let r,i=new URLSearchParams(window.location.search).get(\"kae\");if(i){if(\"-1\"===i)return t;if(\"d\"===i||\"t\"===i)return e}let n=document.cookie.split(/; */);for(let e=0;e<n.length;e++){let t=n[e];if(RegExp(\"^ae=\").test(t)){r=t;break}}if(r){let i=r.split(\"=\")[1];if(\"-1\"===i)return t;if(\"t\"===i)return e}return window.matchMedia(\"(prefers-color-scheme: dark)\").matches?e:t}();document.documentElement.classList.add(r===e?\"theme-dark\":\"theme-light\")}(); (function i(){try{let e=navigator.userAgent,t=document.documentElement.classList;if((()=>{try{return localStorage.getItem(\"shouldDeviceGlobalThrow\")}catch(e){return!1}})())throw Error(\"Test device glboal error\");let n=()=>{let t=e.match(/Android\\s+([0-9]+(?:\\.[0-9]+)?)/i);if(!t)return null;let n=t[1],i=parseInt(n.split(\".\")[0],10);return isNaN(i)?null:i},i=()=>/android/i.test(e),r=()=>!!(/ipad/i.test(e)||/Macintosh/i.test(e)&&/Mac OS X/i.test(e)&&!/like Mac OS X/i.test(e)&&navigator.maxTouchPoints>0||/Macintosh(.*?) FxiOS(.*?)\\//.test(e)),o=()=>/silk/i.test(e),s=()=>{if(/nexus\\s*(?:7|8|9|10).*/i.test(e)||r()||/kftt build/i.test(e)||o()||/tablet(?! pc)/i.test(e))return!0;if(i()){let e=n();if(null!==e&&e>=3)return!0}return!1},a=i()||r()||o()||(()=>{let t=/ipod|iphone/i.test(e),r=/like (ipod|iphone)/i.test(e);if(t&&!r||/nexus\\s*[0-6].*/i.test(e)||/galaxy nexus/i.test(e)||/Nokia/i.tes…",
+    "cxo_names": []
+  },
+  "cleo|": {
+    "evidence": [
+      "duckduckgo:Cleo official website -site:duckduckgo.com",
+      "duckduckgo:Cleo CEO AI-Native FinTechs site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "tandem bank|": {
+    "evidence": [
+      "duckduckgo:Tandem Bank official website -site:duckduckgo.com",
+      "duckduckgo:Tandem Bank CEO Lending & RegTech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "youlend|": {
+    "evidence": [
+      "duckduckgo:YouLend official website -site:duckduckgo.com",
+      "duckduckgo:YouLend CEO Lending & RegTech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "allica bank|": {
+    "evidence": [
+      "duckduckgo:Allica Bank official website -site:duckduckgo.com",
+      "duckduckgo:Allica Bank CEO Lending & RegTech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "oaknorth|": {
+    "evidence": [
+      "duckduckgo:OakNorth official website -site:duckduckgo.com",
+      "duckduckgo:OakNorth CEO Lending & RegTech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "capital on tap|": {
+    "evidence": [
+      "duckduckgo:Capital on Tap official website -site:duckduckgo.com",
+      "duckduckgo:Capital on Tap CEO Lending & RegTech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "modulr|": {
+    "evidence": [
+      "duckduckgo:Modulr official website -site:duckduckgo.com",
+      "duckduckgo:Modulr CEO Platform & Payments site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "lendinvest (lse: linv)|": {
+    "evidence": [
+      "duckduckgo:LendInvest (LSE: LINV) official website -site:duckduckgo.com",
+      "duckduckgo:LendInvest (LSE: LINV) CEO Lending & RegTech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "payhawk|": {
+    "evidence": [
+      "duckduckgo:Payhawk official website -site:duckduckgo.com",
+      "duckduckgo:Payhawk CEO AI-Native FinTechs site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "zego|": {
+    "evidence": [
+      "duckduckgo:Zego official website -site:duckduckgo.com",
+      "duckduckgo:Zego CEO Lending & RegTech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "clearscore|": {
+    "evidence": [
+      "duckduckgo:ClearScore official website -site:duckduckgo.com",
+      "duckduckgo:ClearScore CEO Lending & RegTech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "united trust bank limited|": {
+    "evidence": [
+      "duckduckgo:United Trust Bank Limited official website -site:duckduckgo.com",
+      "duckduckgo:United Trust Bank Limited CEO Lending & RegTech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "crown agents bank|": {
+    "evidence": [
+      "duckduckgo:Crown Agents Bank official website -site:duckduckgo.com",
+      "duckduckgo:Crown Agents Bank CEO Lending & RegTech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "cynergy bank|": {
+    "evidence": [
+      "duckduckgo:Cynergy Bank official website -site:duckduckgo.com",
+      "duckduckgo:Cynergy Bank CEO Lending & RegTech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "hampshire trust bank|": {
+    "evidence": [
+      "duckduckgo:Hampshire Trust Bank official website -site:duckduckgo.com",
+      "duckduckgo:Hampshire Trust Bank CEO Lending & RegTech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "zempler bank|": {
+    "evidence": [
+      "duckduckgo:Zempler Bank official website -site:duckduckgo.com",
+      "duckduckgo:Zempler Bank CEO Lending & RegTech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "unlimit|": {
+    "evidence": [
+      "duckduckgo:Unlimit official website -site:duckduckgo.com",
+      "duckduckgo:Unlimit CEO Platform & Payments site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "transfergo|": {
+    "evidence": [
+      "duckduckgo:TransferGo official website -site:duckduckgo.com",
+      "duckduckgo:TransferGo CEO Platform & Payments site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "emerchantpay|": {
+    "evidence": [
+      "duckduckgo:emerchantpay official website -site:duckduckgo.com",
+      "duckduckgo:emerchantpay CEO Platform & Payments site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "castle trust bank|": {
+    "evidence": [
+      "duckduckgo:Castle Trust Bank official website -site:duckduckgo.com",
+      "duckduckgo:Castle Trust Bank CEO Lending & RegTech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "creditinfo group|": {
+    "evidence": [
+      "duckduckgo:Creditinfo Group official website -site:duckduckgo.com",
+      "duckduckgo:Creditinfo Group CEO Lending & RegTech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "native teams|": {
+    "evidence": [
+      "duckduckgo:Native Teams official website -site:duckduckgo.com",
+      "duckduckgo:Native Teams CEO Platform & Payments site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "astropay|": {
+    "evidence": [
+      "duckduckgo:AstroPay official website -site:duckduckgo.com",
+      "duckduckgo:AstroPay CEO Platform & Payments site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "mypos|": {
+    "evidence": [
+      "duckduckgo:myPOS official website -site:duckduckgo.com",
+      "duckduckgo:myPOS CEO Platform & Payments site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "lendable|": {
+    "evidence": [
+      "duckduckgo:Lendable official website -site:duckduckgo.com",
+      "duckduckgo:Lendable CEO Lending & RegTech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "soldo|": {
+    "evidence": [
+      "duckduckgo:Soldo official website -site:duckduckgo.com"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "paysend|": {
+    "evidence": [],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "pay.uk|": {
+    "evidence": [],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "paymentology|": {
+    "evidence": [],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "brooks macdonald|": {
+    "evidence": [],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "flagstone|": {
+    "evidence": [],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "3s money|": {
+    "evidence": [],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "with intelligence|": {
+    "evidence": [],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "curve|": {
+    "evidence": [],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "gohenry|": {
+    "evidence": [],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "monex europe|": {
+    "evidence": [],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "equals money|": {
+    "evidence": [],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "zen.com|": {
+    "evidence": [],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "decta|": {
+    "evidence": [],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "visionfund international|": {
+    "evidence": [],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "london metal exchange|": {
+    "evidence": [],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "pantheon|": {
+    "evidence": [],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "pei|": {
+    "evidence": [],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "nedbank private wealth|": {
+    "evidence": [],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "arbuthnot latham|": {
+    "evidence": [],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "c. hoare & co.|": {
+    "evidence": [],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "monese|": {
+    "evidence": [
+      "duckduckgo:Monese CEO Lending & RegTech site:linkedin.com/in"
+    ],
+    "linkedin_people": [
+      "https://uk.linkedin.com/in/norriskoppel",
+      "https://uk.linkedin.com/in/arjuna-desai-a4048911",
+      "https://www.linkedin.com/in/monte-c-williams",
+      "https://uk.linkedin.com/in/pablorfz",
+      "https://www.linkedin.com/in/kristina-sepp-33077a140",
+      "https://uk.linkedin.com/in/dylan-lopez-20606b180"
+    ],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "henley & partners - the firm of global citizens|": {
+    "evidence": [
+      "duckduckgo:Henley & Partners - The Firm of Global Citizens official website -site:duckduckgo.com",
+      "https://henleyglobal.com",
+      "https://henleyglobal.com/about",
+      "duckduckgo:Henley & Partners - The Firm of Global Citizens CEO Investment Mgmt & Wealth Tech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "window.dataLayer = window.dataLayer || []; window.dataProcesorUrl = \"https://data.henleyglobal.com\" window.FESubmittingEndpoint = \"/submit\" function gtag() { dataLayer.push(arguments); } gtag('consent', 'default', { 'ad_storage': 'denied', 'ad_user_data': 'denied', 'ad_personalization': 'denied', 'analytics_storage': 'denied' }); window['__hpi_max_year__'] = 2025; window['__hpi_investmentCountriesCodes__'] = [ 'AG', 'AT', 'DM', 'GD', 'JO', 'MK', 'MT', // 'ME', 'KN', 'LC', 'TR', 'EG' ]; window.corStates = [\"US\",\"IN\",\"CA\"]; window.corOffices = [\"VN\"]; var evc = []; Residence and Citizenship by Investment | Henley & Partners Callback Contact +356 2138 7400 Callback +356 2138 7400 Worldwide Offices Residence Citizenship Countries Services Reports About Contact Citizenship by Investment Residence by Investment Real Estate Countries Services About Worldwide Offices Research and Publications Newsroom Events and Webinars Philanthropy Henley Passport Index Henley Passport Power Index Henley Ultimate Portfolio Henley Opportunity Index Henley Residence Program Index Henley Citizenship Program Index Callback Enquiry +356 2138 7400 The Global Leader in Residence and Citizenship Planning { \"@context\": \"https://schema.org\", \"@type\": \"Organization\", \"name\": \"Henley & Partners\", \"url\": \"https://www.henleyglobal.com\", \"logo\": \"https://cdn.henleyglobal.com/themes/hgo/assets/dist/svg/logo.svg\", \"sameAs\": [ \"https://www.facebook.com/HenleyPartners/\", \"https://twitter.com/henleypartners\", \"https://www.linkedin.com/company/henley-&-partners\" ] } The Global Leader in Residence and Citizenship Planning Invest in a Secure Future Today Review program options The Firm of Global Citizens Henley & Partners is the global leader in residence and citizenship planning. Each year, hundreds of wealthy individuals and their advisors rely on our expertise and experience in this area. The firm's highly qualified professionals work together as one team in over 70 offices worldwide. The concept of residence and citizenship planning was created by Henley & Partners in the 1990s. As globalization has expanded, residence and citizenship have become topics of significant interest among the increasing number of internationally mobile entrepreneurs and investors whom we proudly serve every day. About Henley & Partners Why Henley & Partners With over 25 years of institutional experience, Henley & Partners is by far the largest globally integrated residence and citizenship advisory firm in the world. Through the provision of bespoke residence and citizenship planning solutions, we have helped thousands of individuals and families, their advisors, and many sovereign states to generate value. Our outstanding people and systems provide a world-class advisory service underpinned by strict confidentiality, data security, and limited transaction risk. 70+ Offices worldwide 25+ Years leading the sector 60+ Residence and citizenship options 30,000+ Clients served 20+ Government advisory mandates USD 15 billion+ FDI raised Your Journey with Henley & Partners 1. We advise on the best program for you and your family One of our experienced client advisors will carefully assess your personal requirements and help you select the most suitable residence or citizenship by investment program to meet your individual needs and preferences. This initial consultation is free of charge. 2. We onboard you as a Henley & Partners client Before a client agreement is signed and you are invoiced for any services rendered, our compliance team will conduct thorough due diligence on you and any family members included in your application. Once you have passed our due diligence checks, we will onboard you as a client and request a fixed fee for our ongoing services. 3. We assist you with the entire application process A dedicated relationship manager will be appointed to assist you in securing and compiling all necessary supporting documents and completing various government application forms. We will gui…",
+    "cxo_names": [],
+    "official_site": "https://henleyglobal.com"
+  },
+  "aurelius|": {
+    "evidence": [
+      "duckduckgo:AURELIUS official website -site:duckduckgo.com",
+      "duckduckgo:AURELIUS CEO Investment Mgmt & Wealth Tech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "coller capital|": {
+    "evidence": [
+      "duckduckgo:Coller Capital official website -site:duckduckgo.com",
+      "duckduckgo:Coller Capital CEO Investment Mgmt & Wealth Tech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "partners capital|": {
+    "evidence": [
+      "duckduckgo:Partners Capital official website -site:duckduckgo.com",
+      "duckduckgo:Partners Capital CEO Investment Mgmt & Wealth Tech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "hayfin capital management llp|": {
+    "evidence": [
+      "duckduckgo:Hayfin Capital Management LLP official website -site:duckduckgo.com",
+      "duckduckgo:Hayfin Capital Management LLP CEO Investment Mgmt & Wealth Tech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "fitch learning|": {
+    "evidence": [
+      "duckduckgo:Fitch Learning official website -site:duckduckgo.com",
+      "duckduckgo:Fitch Learning CEO Investment Mgmt & Wealth Tech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "engelhart|": {
+    "evidence": [
+      "duckduckgo:Engelhart official website -site:duckduckgo.com",
+      "duckduckgo:Engelhart CEO Investment Mgmt & Wealth Tech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "copper.co|": {
+    "evidence": [
+      "duckduckgo:Copper.co official website -site:duckduckgo.com",
+      "duckduckgo:Copper.co CEO AI-Native FinTechs site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "9fin|": {
+    "evidence": [
+      "duckduckgo:9fin official website -site:duckduckgo.com",
+      "duckduckgo:9fin CEO AI-Native FinTechs site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "zilch|": {
+    "evidence": [
+      "duckduckgo:Zilch official website -site:duckduckgo.com",
+      "duckduckgo:Zilch CEO Lending & RegTech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "tradingview|": {
+    "evidence": [
+      "duckduckgo:TradingView official website -site:duckduckgo.com",
+      "duckduckgo:TradingView CEO Investment Mgmt & Wealth Tech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "trading 212|": {
+    "evidence": [
+      "duckduckgo:Trading 212 official website -site:duckduckgo.com",
+      "duckduckgo:Trading 212 CEO Investment Mgmt & Wealth Tech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "octopus investments|": {
+    "evidence": [
+      "duckduckgo:Octopus Investments official website -site:duckduckgo.com",
+      "duckduckgo:Octopus Investments CEO Investment Mgmt & Wealth Tech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "weatherbys private bank|": {
+    "evidence": [
+      "duckduckgo:Weatherbys Private Bank official website -site:duckduckgo.com",
+      "duckduckgo:Weatherbys Private Bank CEO Investment Mgmt & Wealth Tech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "7im|": {
+    "evidence": [
+      "duckduckgo:7IM official website -site:duckduckgo.com",
+      "duckduckgo:7IM CEO Investment Mgmt & Wealth Tech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "freetrade|": {
+    "evidence": [
+      "duckduckgo:Freetrade official website -site:duckduckgo.com",
+      "duckduckgo:Freetrade CEO Investment Mgmt & Wealth Tech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "yulife|": {
+    "evidence": [
+      "duckduckgo:YuLife official website -site:duckduckgo.com",
+      "duckduckgo:YuLife CEO Investment Mgmt & Wealth Tech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "macrobond|": {
+    "evidence": [
+      "duckduckgo:Macrobond official website -site:duckduckgo.com",
+      "duckduckgo:Macrobond CEO Investment Mgmt & Wealth Tech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "exinity|": {
+    "evidence": [
+      "duckduckgo:Exinity official website -site:duckduckgo.com",
+      "duckduckgo:Exinity CEO Platform & Payments site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "zenith bank (uk) limited.|": {
+    "evidence": [
+      "duckduckgo:Zenith Bank (UK) Limited. official website -site:duckduckgo.com",
+      "duckduckgo:Zenith Bank (UK) Limited. CEO Lending & RegTech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "bank of london|": {
+    "evidence": [
+      "duckduckgo:Bank of London official website -site:duckduckgo.com",
+      "duckduckgo:Bank of London CEO Lending & RegTech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "validus risk management|": {
+    "evidence": [
+      "duckduckgo:Validus Risk Management official website -site:duckduckgo.com",
+      "duckduckgo:Validus Risk Management CEO Lending & RegTech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "europe arab bank|": {
+    "evidence": [
+      "duckduckgo:Europe Arab Bank official website -site:duckduckgo.com",
+      "duckduckgo:Europe Arab Bank CEO Lending & RegTech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "b4b payments - a banking circle group company|": {
+    "evidence": [
+      "duckduckgo:B4B Payments - A Banking Circle Group Company official website -site:duckduckgo.com",
+      "duckduckgo:B4B Payments - A Banking Circle Group Company CEO Platform & Payments site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "hsbc innovation banking|": {
+    "evidence": [
+      "duckduckgo:HSBC Innovation Banking official website -site:duckduckgo.com",
+      "duckduckgo:HSBC Innovation Banking CEO Lending & RegTech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "11:fs|": {
+    "evidence": [
+      "duckduckgo:11:FS official website -site:duckduckgo.com",
+      "duckduckgo:11:FS CEO Investment Mgmt & Wealth Tech site:linkedin.com/in"
+    ],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "blink payment|": {
+    "evidence": [],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "uk finance|": {
+    "evidence": [],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "liquidity|": {
+    "evidence": [],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "primer|": {
+    "evidence": [],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "gp bullhound|": {
+    "evidence": [],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "pemberton asset management|": {
+    "evidence": [],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "qube research & technologies|": {
+    "evidence": [],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  },
+  "novatus|": {
+    "evidence": [],
+    "linkedin_people": [],
+    "emails": [],
+    "site_text": "",
+    "cxo_names": [],
+    "official_site": ""
+  }
+}

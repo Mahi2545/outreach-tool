@@ -1,0 +1,25 @@
+{
+  "total_rows": 124,
+  "null_counts": {
+    "Segment": 1,
+    "Segment Label": 1,
+    "Company Name": 1,
+    "Company LinkedIn URL": 1,
+    "Revenue Range": 1,
+    "Employee Count": 1,
+    "About Company": 1,
+    "BUYING INTENT SCORE": 1,
+    "Lead Quality Score": 1,
+    "Priority": 1,
+    "Pain Point ( Hook)": 1,
+    "Best Match Kreatorverse Business Offerings": 1,
+    "Key CxO Contacts": 0,
+    "Linkedin URLs": 0,
+    "Email ID": 1,
+    "Linkedin Connection": 124,
+    "LinkedIn Inmail": 124,
+    "Email Sent Touch1": 124,
+    "Email Touch2": 124,
+    "Email IDs": 124
+  }
+}
